@@ -1,0 +1,203 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  padding-top: 70px;
+  background: url("../images/background.webp") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.header {
+    padding: 0 3px;
+}
+
+.logo {
+  height: 50px;
+  width: auto;
+  object-fit: contain;
+  margin: 0;
+}
+
+
+.icon-gradient {
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+
+.service-icon {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+.contact-icon {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.hero {
+  min-height: calc(100vh - 70px);  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  padding: 0;
+}
+
+.btn-gradient {
+  background: linear-gradient(90deg, #6a11cb, #2575fc);
+  border: none;
+  color: white !important;
+  padding: 10px 26px;
+  border-radius: 40px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.btn-gradient:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 30px rgba(37, 117, 252, 0.4);
+}
+
+.btn-linkedin {
+  background: transparent;
+  border: 2px solid #0A66C2;
+  color: #0A66C2 !important;
+  padding: 10px 26px;
+  font-weight: 600;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+}
+
+.btn-linkedin:hover {
+  background: #0A66C2;
+  color: white !important;
+  box-shadow: 0 10px 25px rgba(10, 102, 194, 0.4);
+  transform: translateY(-2px);
+}
+
+.about-text {
+  max-width: 520px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section {
+  background: rgba(0, 0, 0, 0.65);
+  color: white;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+h2 {
+  margin-bottom: 40px;
+}
+p {
+  line-height: 1.8;
+}
+
+
+#services .card {
+  border: none;
+  border-radius: 16px;
+}
+
+
+
+strong {
+  display: block;
+  font-size: 1.25rem;
+  margin-bottom: 18px;
+}
+
+.why-us {
+  min-height: 70vh;              
+  display: flex;
+  align-items: center;          
+}
+
+.why-us h2 {
+  margin-bottom: 90px !important;
+}
+
+.why-us .col-md-3 {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.why-us p {
+  max-width: 260px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.7;
+}
+
+#contact {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+#contact h2 {
+  margin-bottom: 20px;
+}
+
+#contact p {
+  max-width: 400px;
+  font-size: 1.05rem;
+  margin-bottom: 50px;
+}
+
+.social-btn {
+  width: 42px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.social-btn:hover {
+  transform: translateY(-4px);
+}
+
+.fade-up,
+.fade-in {
+  will-change: transform, opacity;
+}
+
+.fade-up.show.delay-1 { transition-delay: 0.1s; }
+.fade-up.show.delay-2 { transition-delay: 0.2s; }
+.fade-up.show.delay-3 { transition-delay: 0.3s; }
+.fade-up.show.delay-4 { transition-delay: 0.4s; }
+
+.fade-up:not(.show) {
+  opacity: 0;
+  transform: translateY(30px);
+}
+
+.fade-up.show {
+  opacity: 1;
+  transform: translateY(0);
+  transition: transform 0.8s ease, opacity 0.8s ease;
+}
+
+.fade-in {
+  opacity: 0;
+  transition: opacity 0.8s ease;
+}
+
+.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+
