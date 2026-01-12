@@ -6,12 +6,12 @@ The website presents the company’s services, brand identity, and contact lead 
 
 ---
 
-## 🚀 Live Preview
+##  Live Preview
 https://sparkquetech.netlify.app/
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 - HTML5  
 - CSS3  
@@ -21,7 +21,7 @@ https://sparkquetech.netlify.app/
 
 ---
 
-## ✨ Features
+##  Features
 
 - Fully responsive (mobile, tablet & desktop)
 - Modern hero section with call-to-action buttons
@@ -34,23 +34,8 @@ https://sparkquetech.netlify.app/
 
 ---
 
-## 📂 Project Structure
 
-sqts-landing-page/
-│
-├── index.html
-├── css/
-│ └── style.css
-├── js/
-│ └── main.js
-├── images/
-│ ├── logo.png
-│ └── background.png
-└── README.md
-
----
-
-## 🧩 Sections Included
+##  Sections Included
 
 - Hero Section  
 - About Us  
@@ -63,7 +48,7 @@ All content is written meaningfully to represent a real IT services company.
 
 ---
 
-## 📌 Notes
+##  Notes
 
 This project was created as part of a technical selection task and focuses on:
 - Clean UI
@@ -73,7 +58,7 @@ This project was created as part of a technical selection task and focuses on:
 
 ---
 
-## 👤 Developed By
+##  Developed By
 
 **Mohammed Naif**  
 Web & MERN Stack Developer  
